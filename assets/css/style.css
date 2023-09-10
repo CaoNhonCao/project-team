@@ -478,17 +478,17 @@ main {
     color: #bababa;
 }
 
-.ti-angle-right,
-.ti-angle-left {
+.category .ti-angle-right,
+.category .ti-angle-left {
     position: absolute;
 }
 
-.ti-angle-right {
+.category .ti-angle-right {
     right: -80px;
     top: 45%;
 }
 
-.ti-angle-left {
+.category .ti-angle-left {
     left: -80px;
     top: 45%;
 }
@@ -499,6 +499,7 @@ main {
 
 .tag-product-item .row {
     width: 278px;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
@@ -532,4 +533,15 @@ main {
     padding: 8px 16px;
     border-radius: 8px;
     cursor: default;
+}
+
+/* ============Banner=========== */
+
+.banner_2 {
+    margin-top: 80px;
+}
+
+/* ============Product=========== */
+.category_3 {
+    margin-top: 0;
 }
