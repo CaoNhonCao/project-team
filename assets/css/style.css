@@ -59,6 +59,7 @@ a {
     flex-direction: column;
     align-items: center;
     max-width: 240px;
+    cursor: default;
 }
 
 .logo_team {
@@ -111,6 +112,12 @@ a {
     cursor: pointer;
 }
 
+.header-button_shopping:hover,
+.header-button_user:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
 /* ============Navigation=========== */
 .nav {
     padding: 12px 0;
@@ -153,6 +160,7 @@ a {
     width: 100%;
 }
 
+.nav li:hover .ti-angle-down,
 .nav > ul li:hover a,
 .list-item a {
     color: #000;
@@ -164,6 +172,7 @@ a {
 }
 
 .nav .ti-angle-down {
+    padding-left: 4px;
     color: #fff;
 }
 
