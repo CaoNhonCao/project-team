@@ -36,7 +36,9 @@ a {
 /* ============Header=========== */
 .header {
     background-color: #000;
-    max-width: 100%;
+    max-width: 100%;position: -webkit-sticky;
+    position: sticky;
+    top: -144px;
 }
 
 .header .flex-row {
