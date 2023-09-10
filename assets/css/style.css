@@ -36,7 +36,8 @@ a {
 /* ============Header=========== */
 .header {
     background-color: #000;
-    max-width: 100%;position: -webkit-sticky;
+    max-width: 100%;
+    position: -webkit-sticky;
     position: sticky;
     top: -144px;
 }
@@ -48,12 +49,12 @@ a {
 
 .header .search-field {
     color: #fff;
-    background-color: rgba(255,255,255,.2);
+    background-color: rgba(255, 255, 255, 0.2);
     border-radius: 999px;
-    border-color: rgba(255,255,255,.09);
+    border-color: rgba(255, 255, 255, 0.09);
     color: currentColor;
     box-shadow: none;
-    border-color: rgba(0,0,0,.09)
+    border-color: rgba(0, 0, 0, 0.09);
 }
 
 .logo {
@@ -77,7 +78,7 @@ a {
     min-width: 180px;
 }
 
-.container-search input{
+.container-search input {
     min-width: 240px;
     max-width: 250px;
     padding: 8px 16px;
@@ -125,15 +126,15 @@ a {
     padding: 12px 0;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .nav ul li {
     text-align: center;
 }
 
-.nav > ul{
+.nav > ul {
     display: flex;
+    align-items: center;
 }
 
 .nav > ul li {
