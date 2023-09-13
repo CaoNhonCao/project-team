@@ -31,18 +31,23 @@
     font-weight: 700;
 }
 
-.slogan {
+.container-slogan {
     color: #fff;
     text-align: center;
+    margin-top: -35px;
+}
+
+.container-slogan .name-shop {
+    font-size: 2rem;
 }
 
 a {
-    text-decoration: none !important;
-    color: #fff !important;
+    text-decoration: none;
+    color: #fff;
 }
 
 a:hover {
-    text-decoration: underline !important;
+    text-decoration: underline;
 }
 
 .dots {
@@ -239,18 +244,18 @@ a:hover {
 }
 
 .nav ul li a {
-    color: #fff !important;
-    text-decoration: none !important;
+    color: #fff;
+    text-decoration: none;
 }
 
 .nav ul li:hover a,
 .nav .tag-father li a {
-    color: #000 !important;
+    color: #000;
 }
 
 .nav .tag-father li:hover a {
-    text-decoration: none !important;
-    color: #000 !important;
+    text-decoration: none;
+    color: #000;
 }
 
 .tag-father:hover .list-item {
@@ -409,15 +414,15 @@ main {
         19deg,
         #21d4fd 0%,
         #b721ff 100%
-    ) !important;
-    text-decoration: none !important;
-    color: transparent !important;
+    );
+    text-decoration: none;
+    color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
 }
 
 .acction-btn a {
-    color: #000 !important;
+    color: #000;
     font-size: 1.6rem;
     font-weight: 400;
 }
@@ -473,9 +478,9 @@ main {
 }
 
 .category li a {
-    color: #000 !important;
-    font-size: 1.5rem !important;
-    font-weight: 400 !important;
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: 400;
 }
 
 .tab-content {
@@ -651,7 +656,7 @@ main {
     text-align: end;
     margin-top: 10px;
     display: inline-block;
-    color: var(--primary_color) !important;
+    color: var(--primary_color);
     font-size: 1.8rem;
     box-shadow: 0 2px var(--primary_color);
     padding: 5px;
@@ -659,10 +664,10 @@ main {
 }
 
 .container-section a:hover {
-    text-decoration: none !important;
-    transition: all 0.3s !important;
+    text-decoration: none;
+    transition: all 0.3s;
     text-shadow: 0em 0em 0em var(--primary_color),
-        0.06em 0em 0em var(--primary_color) !important;
+        0.06em 0em 0em var(--primary_color);
 }
 
 .container-section i {
@@ -760,12 +765,12 @@ main {
 
 .footer .btn-footer {
     margin: 16px 0;
-    width: 47%;
+    max-width: 80%;
     padding: 12px 20px;
     text-align: center;
     background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
     border-radius: 18px;
-    text-decoration: none !important;
+    text-decoration: none;
 }
 
 .footer .btn-footer:hover {
@@ -788,7 +793,7 @@ main {
 }
 
 .icon-contact a {
-    text-decoration: none !important;
+    text-decoration: none;
 }
 
 .icon_contact {
