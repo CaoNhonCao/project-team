@@ -306,6 +306,11 @@ a:hover {
     color: #fff;
 }
 
+.nav ul li a.nav-active {
+    color: #0627ef;
+    font-weight: 600;
+}
+
 /* ============Main=========== */
 main {
     margin: 30px 0 0;
